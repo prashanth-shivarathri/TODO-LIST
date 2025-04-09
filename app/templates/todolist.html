@@ -1,0 +1,9 @@
+{% extends 'main.html' %}
+{% block content %}
+<h1>TODOLIST STORAGE</h1>
+{% for i in data %}
+<a  href="{% url 'edit' i.pk %}"><h1>{{i.name}}</h1></a>
+<a  href="{% url 'edit' i.pk %}"><h1>{{i.des}}</h1></a>
+
+{% endfor %}
+{% endblock content %}

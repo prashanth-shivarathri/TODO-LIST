@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/hi.css' %}">
+</head>
+<body>
+    <nav >
+        <ol id="a1">
+            <a href="{% url 'home' %}"> <li>HOME</li></a> 
+            <a href="{% url 'todo' %}"><li>todolist</li></a>
+             <a href="{% url 'history' %}"><li>HISTORY</li></a> 
+             <a href="{% url 'context' %}"><li>CONTEXT</li></a></ol>
+    </nav>
+</body>
+</html>

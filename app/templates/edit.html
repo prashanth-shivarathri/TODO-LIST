@@ -1,0 +1,13 @@
+{% extends 'main.html' %}
+{% block content %}
+<div><form action="" method="POST">
+    {% csrf_token %}
+    <h4>EDIT</h4>
+    <label for="">name</label>
+    <input type="text" name="name" id="" value="{{data.name}}"> <br> <br>
+    <label for="">des</label>
+    <input type="text" name="des" id="" value="{{data.des}}"> <br> <br>
+    <button type="submit">SUBMIT</button>
+    <button type="submit"><a href="{% url 'delete' data.id %}">delete</a></button>
+    </form></div>
+{% endblock content %}

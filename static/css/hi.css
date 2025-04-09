@@ -1,0 +1,33 @@
+#a1{
+    background-color: rgb(3, 4, 0);
+
+    border: 10px solid;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+nav a:visited{
+    color: antiquewhite;
+
+
+}
+nav a{
+    padding: 10px;
+    text-decoration: none;
+}
+button{
+    background-color: aqua;
+}
+div{
+    margin-left: 40%;
+    background-color: blueviolet;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+}
+h1{
+    margin-left: 40%;
+}
+a{
+    text-decoration: none;
+}
